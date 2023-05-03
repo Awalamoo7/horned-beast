@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./HornedBeast.css";
 
 export default function HornedBeast({ title, imageUrl, description }) {
 	const [votes, setVotes] = useState(0);
