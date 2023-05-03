@@ -1,9 +1,14 @@
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Main from "./components/main";
 import "./App.css";
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Hello world!</h1>
+			<Header />
+			<Main />
+			<Footer />
 		</div>
 	);
 }
